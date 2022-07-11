@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace SuperExampleGame.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class EquiposController : ControllerBase
     {
         
